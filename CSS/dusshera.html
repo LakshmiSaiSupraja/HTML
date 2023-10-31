@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Poppins:wght@300&display=swap');
+        body {
+            font-family: 'Playpen Sans', cursive, 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url(./a516d1980343dd723fe75eaa72739176.gif);
+            background-size: cover;
+            top: 10%;
+            
+        }
+        .center {
+            position: absolute;
+            top: 10%; 
+            left: 10%;
+            transform: translate(-50%, -50%); 
+            width: 300px;
+            height: 300px;
+            border: 9px solid #fff;
+            border-radius: 50%;
+            background-color: red;
+            animation: spin 2s linear infinite; 
+            transition: all 0.5s;
+            z-index: 1;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+            border-style: double;
+
+        }
+        h4 {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #fdf401;
+            font-size: 1.5em;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            position: relative;
+            top: 40px;
+            z-index: 2;
+            animation: changeColor 8s linear infinite;
+        }
+        @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+            background-color: red;
+        }
+        25% {
+            background-color: blue;
+        }
+        50% {
+            background-color: green;
+        }
+        75% {
+            background-color: yellow;
+        }
+        100% {
+            transform: rotate(360deg);
+            background-color: red; /* Back to the original color */
+        }
+    }
+    @keyframes changeColor {
+            0%, 100% {
+                color: #fdf401;
+            }
+            12.5% {
+                color: red;
+            }
+            37.5% {
+                color: blue;
+            }
+            62.5% {
+                color: green;
+            }
+            87.5% {
+                color: yellow;
+            }
+        }
+
+      
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h4>10000 CODERS</h4>
+        <h4>WISHES YOU A VERY HAPPY DUSSEHRA</h4>
+
+    </div>
+    
+</body>
+</html>

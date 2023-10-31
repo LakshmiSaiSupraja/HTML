@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        input{
+            width: 800px;
+            padding: 10px;
+            word-spacing: 80px;
+            margin: 30px;
+            background-color:aqua;
+        }
+        select{
+            width: 800PX;
+            padding: 10PX;
+            margin: 30px;
+            position: relative;
+            left: 20px;
+            background-color: aqua;
+        }
+        textarea{
+            width: 800px;
+            padding: 10px;
+            margin: 30px;
+            position: relative;
+            left: 20px;
+            background-color: aqua;
+        }
+        div{
+            width: 1800px;
+            height: 1000px;
+            background-color: chartreuse;
+        }
+        .but{
+            position: relative;
+            left: 800px;
+            width: 100px;
+        }
+        
+    </style>
+   
+</head>
+<body>
+    <div>
+    <form action="/action_page.php">
+        <table>
+            <tr>
+                <td><label for="fname"> FIRST NAME:</label></td>
+                <td><input type="text" name="firstname" placeholder="yourname"></td>
+            </tr>
+            <tr>
+                <td><label for="lanme">LAST NAME:</label></td>
+                <td><input type="text" name="lastname" placeholder="yourlastname"></td>
+            </tr>
+            <table>
+                <label for="country"> COUNTRY:</label>
+                <select id="COUNTRY" name="COUNTRY">
+                    <option value="INDIA">INDIA</option>
+                    <option value="AUSTRALIA">AUSTRALIA</option>
+                    <option value="CHINA">CHINA</option>
+                    <option value="CANADA">CANADA</option>
+                    <option value="GERMANY">GERMANY</option>
+                    <option value="SWEDEN">SWEDEN</option>
+                </select>
+            
+                    <td><label for="subject">SUBJECT</label></td>
+                   <td><textarea name="WRITE SOMETHING" id="" cols="40" rows="10" placeholder="WRITE SOMETHING..."></textarea></td>
+                </tr>
+                
+                 </table>
+                
+        </table>
+        <input class="but" type="submit" value="SUBMIT">
+    </form>
+    </div>
+    
+</body>
+</html>
